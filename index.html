@@ -17,6 +17,18 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
                 <form action="login.pnp" method="post">
+                    <p>
+                        <label for="inome">Nome: </label>
+                        <input type="text" name="usu" id="iname" required minlength="5" maxlength="30" size="10" placeholder="Nomedousuario" autocomplete="off">
+                    </p>
+                    <p>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="iname" required minlength="6" maxlength="12">
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
 
                 </form>
             </div>
